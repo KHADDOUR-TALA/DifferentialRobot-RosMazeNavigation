@@ -114,7 +114,6 @@ Calls reset service:
 rosrun differential_robot client.py
 ```
 
----
 
 ##  URDF Robot
 
@@ -132,7 +131,6 @@ Includes:
 * LiDAR sensor
 * Materials (blue, white, black)
 
----
 
 ##  Reset Pose Service
 
@@ -193,7 +191,7 @@ The Control algorithm used to escape the maze can be described by these rules:
 ## Demo
 
 
-![Robot Navigation Demo](media/demo.gif)
+![Robot Navigation Demo](media/Demo.gif)
 
 *Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
 
