@@ -1,6 +1,13 @@
 # Differential Robot - ROS Maze Navigation
 
 This package contains a simulation of a differential-drive robot using URDF/Xacro. A navigation algorithm was implemented to guide the robot through a maze-escape task based on simulated LiDAR data.
+## Demo
+
+![Robot Navigation Demo](differential_robot/media/Demo.gif)
+<video src="media/demo.mp4" width="640" controls></video>
+
+*Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
+
 
 ## Overview
 
@@ -186,14 +193,6 @@ The Control algorithm used to escape the maze can be described by these rules:
 * Free-space turning preference
 * Odometry simulated from `/cmd_vel`
 * Path recorded continuously
-
-## Demo
-
-
-![Robot Navigation Demo](differential_robot/media/Demo.gif)
-<video src="media/demo.mp4" width="640" controls></video>
-
-*Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
 
 
 ## Author
