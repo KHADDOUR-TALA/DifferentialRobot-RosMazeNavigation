@@ -1,7 +1,6 @@
 # Differential Robot - ROS Maze Navigation
 
 This package contains a simulation of a differential-drive robot using URDF/Xacro. A navigation algorithm was implemented to guide the robot through a maze-escape task based on simulated LiDAR data.
-1. *
 
 ## Overview
 
@@ -12,12 +11,13 @@ This project simulates a differential drive robot equipped with a LiDAR sensor a
 - **Navigation Algorithm**: Wall-following algorithm with obstacle avoidance
 - **Visualization**: RViz integration for real-time visualization
 - **Arduino Emulation**: Simulates motor control interface
-2. *
 
 ## Project Structure
 
 ```
 differential_robot/
+├── media/
+│   └── Demo.gif          
 ├── launch/
 │   └── rviz.launcher          # Main launch file for visualization
 ├── robot/
@@ -35,7 +35,6 @@ differential_robot/
 │   └── reset.srv              # Custom service for pose reset
 └── CMakeLists.txt & package.xml
 ```
-3. *
 
 ##  Installation
 
@@ -97,7 +96,6 @@ Publishes maze wall lines using RViz markers.
 
 * `/visualization_marker`
 
----
 
 ### **4. arduino_emulator (`arduino.py`)**
 
@@ -107,7 +105,6 @@ Receives velocity commands and prints them (debug motor interface).
 
 * `/cmd_vel`
 
----
 
 ### **5. reset_pose_client (`client.py`)**
 
@@ -155,9 +152,8 @@ You can call this service manulay by using this:
 rosservice call /reset_pose 0 0 0
 ```
 
----
 
-## 🖥 RViz Visualization
+## RViz Visualization
 
 Load the provided configuration:
 
@@ -173,7 +169,6 @@ Displays:
 * Maze walls
 * Robot path
 
----
 
 ##  Topics Summary
 
@@ -186,7 +181,6 @@ Displays:
 | TF `world → base_link`       | TF            | maze_navigator        |
 | TF `base_link → hokuyo_link` | TF            | simulated_lidar       |
 
----
 
 ## Navigation Behavior and Control algorithm
 The Control algorithm used to escape the maze can be described by these rules:
@@ -198,11 +192,15 @@ The Control algorithm used to escape the maze can be described by these rules:
 
 ## Demo
 
----
+
+![Robot Navigation Demo](media/demo.gif)
+
+*Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
+
+
 ## Author
 
 This package was developed by Tala Khaddour
 
----
 
 
