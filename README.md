@@ -2,11 +2,11 @@
 
 This package contains a simulation of a differential-drive robot using URDF/Xacro. A navigation algorithm was implemented to guide the robot through a maze-escape task based on simulated LiDAR data.
 ## Demo
+*Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
 
 ![Robot Navigation Demo](differential_robot/media/Demo.gif)
 <video src="media/demo.mp4" width="640" controls></video>
 
-*Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
 
 
 ## Overview
