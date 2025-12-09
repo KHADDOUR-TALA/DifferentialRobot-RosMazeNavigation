@@ -190,7 +190,7 @@ The Control algorithm used to escape the maze can be described by these rules:
 ## Demo
 
 
-![Robot Navigation Demo](differential_robot/Rmedia/Demo.gif)
+![Robot Navigation Demo](differential_robot/media/Demo.mp4)
 
 *Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
 
