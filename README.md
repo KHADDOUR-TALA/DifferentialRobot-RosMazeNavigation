@@ -86,7 +86,6 @@ Autonomous robot controller: obstacle avoidance + wall following + odometry.
 
 * `/reset_pose` (reset.srv)
 
----
 
 ### **3. maze_marker_publisher (`lidar_data.py`)**
 
@@ -191,7 +190,7 @@ The Control algorithm used to escape the maze can be described by these rules:
 ## Demo
 
 
-![Robot Navigation Demo](media/Demo.gif)
+![Robot Navigation Demo](differential_robot/Rmedia/Demo.gif)
 
 *Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
 
