@@ -53,7 +53,6 @@ cd ..
 catkin_make
 source devel/setup.bash
 ```
-4. *
 
 ## Launch the Simulation
 
