@@ -146,8 +146,6 @@ float32 x
 float32 y
 float32 yaw
 ---
-bool success
-```
 
 ### Call manually
 You can call this service manulay by using this:
